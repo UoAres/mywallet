@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-
 import '../pages/FrameMenu.dart';
 
 //configurate the route maps
 final routes = {
   '/': (context) => FrameMenu(),
 };
-
 //define the route behavior
 var onGenerateRoute = (RouteSettings settings) {
   final String? name = settings.name;
