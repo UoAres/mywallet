@@ -29,7 +29,7 @@ git clone https://github.com/UoAres/mywallet
 ## Initialize it:
 ```sh
 flutter pub get //Get the dependencies
-flutter create. //create the runtime environment
+flutter create . //create the runtime environment
 ```
 
 ## Run it:
