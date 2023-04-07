@@ -37,7 +37,8 @@ flutter create . //create the runtime environment
 flutter run //start the project and select the platform you want to run on
 ```
 
-If you find that you can't access the network (or have no data) after starting, you need to configure network access:
+If you find that you can't access the network (or have no data) after starting, you need to configure network access.
+
 Add the following to the file "macos/Runner/DebugProfile.entitlements":
 ```sh
 <key>com.apple.security.network.client</key>

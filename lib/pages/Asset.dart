@@ -8,7 +8,7 @@ class AssetPage extends StatefulWidget {
 }
 
 class _AssetPageState extends State<AssetPage> {
-  String myAddress = "3MgsChvhV8J7ZXCVamd4gML1xviBFU72iQ";
+  String myAddress = "bc1q9yn6zdkjjlh0z5y6sqpdvwq7pwkeh5r0ka28ad";
   Map myAccountInfo = {};
   @override
   void initState() {
@@ -121,7 +121,8 @@ class _AssetPageState extends State<AssetPage> {
                                   SizedBox(
                                     height: 5,
                                   ),
-                                  Text("${final_balance}", //还要再加上矿工的收益
+                                  Text(
+                                      "${DataUtils.formatNumInNum(final_balance.toString())}",
                                       style: TextStyle(fontSize: 26)),
                                   SizedBox(
                                     height: 5,
