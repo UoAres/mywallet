@@ -156,12 +156,6 @@ class _Block_ListPageState extends State<Block_ListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          leading: IconButton(
-            icon: Icon(Icons.close),
-            onPressed: () {
-              Navigator.pop(context);
-            },
-          ),
           title: Text("Blocks"),
           backgroundColor: Colors.blue,
           centerTitle: true,
